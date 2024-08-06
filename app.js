@@ -13,3 +13,6 @@ app.use('/',userRoutes)
 app.listen(3000,() => {
     console.log('server running succesfully')
 })
+
+
+module.exports = express
